@@ -1,4 +1,7 @@
 # Dimensión Entorno Urbano
+# Referencias:
+# * https://docs.google.com/spreadsheets/d/1owfdwKv25AkBEb5QuA0nNwKj4LoEXVo2/edit#gid=1512333624
+# * Gestor de Mapeo
 
 import utils
 

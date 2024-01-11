@@ -12,6 +12,9 @@ class Constants(Enum):
     GRAVE = "GRAVE"
     MODERADO = "MODERADO"
     LEVE = "LEVE"
+    X1 = "1"
+    X2_5 = "2_5"
+    X5_N = "5_N"
 
 
 class RemapException(Exception):
@@ -45,6 +48,34 @@ def remap_gml(s):
     raise RemapException("No existe la opción " + s)
 
 
+def remap_veces(v, s):
+    if v == Constants.X1.value and s == Constants.NINGUNO.value:
+        return 66
+    elif v == Constants.X1.value and s == Constants.LEVE.value:
+        return 66
+    elif v == Constants.X1.value and s == Constants.MODERADO.value:
+        return 33
+    elif v == Constants.X1.value and s == Constants.GRAVE.value:
+        return 33
+    elif v == Constants.X2_5.value and s == Constants.NINGUNO.value:
+        return 66
+    elif v == Constants.X2_5.value and s == Constants.LEVE.value:
+        return 33
+    elif v == Constants.X2_5.value and s == Constants.MODERADO.value:
+        return 33
+    elif v == Constants.X2_5.value and s == Constants.GRAVE.value:
+        return 0
+    elif v == Constants.X5_N.value and s == Constants.NINGUNO.value:
+        return 33
+    elif v == Constants.X5_N.value and s == Constants.LEVE.value:
+        return 33
+    elif v == Constants.X5_N.value and s == Constants.MODERADO.value:
+        return 0
+    elif v == Constants.X5_N.value and s == Constants.GRAVE.value:
+        return 0
+    return None
+
+
 def procesable(row, column):
     return not pd.isna(row[column]) and row[column] != Constants.NINGUNO.value
 
@@ -54,6 +85,18 @@ def calculate_score(mapeo, code, letters, remap_function):
     for letter in letters:
         if procesable(mapeo, code + letter):
             evaluaciones.append(remap_function(mapeo[code + letter]))
+    if len(evaluaciones) > 0:
+        return int(round(mean(evaluaciones)))
+    return None
+
+
+def calculate_score_riesgo(mapeo, code_veces, code, letters):
+    evaluaciones = []
+    v = mapeo[code_veces]
+    for letter in letters:
+        if procesable(mapeo, code + letter):
+            c = mapeo[code + letter]
+            evaluaciones.append(remap_veces(v, c))
     if len(evaluaciones) > 0:
         return int(round(mean(evaluaciones)))
     return None

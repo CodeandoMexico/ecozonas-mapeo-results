@@ -3,6 +3,7 @@ import pandas as pd
 import biesoc
 import enturb
 import medamb
+import riedes
 
 
 def main():
@@ -74,7 +75,18 @@ def main():
         # ------------------------------
         # Riesgo desastres
         # ------------------------------
-
+        elif row['activity_id'] == 128:  # OD6 Espacios de contingencia frente a catastrofes
+            resultados.at[index, 'puntuacion'] = None
+        elif row['activity_id'] == 132:  # OD1 Riesgo geologico
+            resultados.at[index, 'puntuacion'] = riedes.od1(row)
+        elif row['activity_id'] == 133:  # OD2 Riesgo hidrometeorologico
+            resultados.at[index, 'puntuacion'] = riedes.od2(row)
+        elif row['activity_id'] == 129:  # OD3 Riesgo ambiental
+            resultados.at[index, 'puntuacion'] = riedes.od3(row)
+        elif row['activity_id'] == 130:  # OD4 Riesgo antropogenico
+            resultados.at[index, 'puntuacion'] = riedes.od4(row)
+        elif row['activity_id'] == 131:  # OD5 Riesgo biologico
+            resultados.at[index, 'puntuacion'] = riedes.od5(row)
         # ------------------------------
         # Otra
         # ------------------------------
