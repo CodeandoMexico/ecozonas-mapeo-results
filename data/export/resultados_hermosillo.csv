@@ -1,0 +1,135 @@
+id,category_name,activity_title,activity_id,longitude,latitude,date,image,comment,gender,age_range,disability,puntuacion
+697,Bienestar Socioeconómico,Actividades culturales,103,-110.92619099999644,29.08975216479884,2023-12-15 00:29:48.557716+00:00,images/2744e5ce-6600-4b06-bff6-13b9f38ed3d1.jpg,"los vecinos hacen todo, organizan, limpian y dan mantenimiento",MUJER,56_65,NINGUNA,93
+579,Bienestar Socioeconómico,Actividades culturales,103,-110.92652609999698,29.08997936479291,2023-12-15 00:25:40.792698+00:00,images/0edc3efe-7a4e-43f0-8ce0-4936c5637107.jpg,si vino gente solo falto luz,MUJER,56_65,VISUAL,93
+568,Bienestar Socioeconómico,Actividades culturales,103,-110.92761853816312,29.090523472146792,2023-12-15 00:20:51.283590+00:00,images/6e6782da-d2ff-4c6f-a3a3-f109c3df3b66.jpg,,HOMBRE,MENOS_18,NINGUNA,100
+506,Bienestar Socioeconómico,Actividades culturales,103,-110.9261535044511,29.089750281050875,2023-12-15 00:13:28.261558+00:00,,,HOMBRE,26_35,NINGUNA,33
+359,Bienestar Socioeconómico,Actividades culturales,103,-110.9264743102917,29.09006166764182,2023-12-14 23:18:48.603551+00:00,images/a20bfeab-5d78-433f-8920-c7285e29804b.jpg,,MUJER,18_25,NINGUNA,60
+725,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92554209999578,29.088500352830657,2023-12-19 21:57:35.355287+00:00,,,MUJER,MENOS_18,NINGUNA,0
+710,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92576704860224,29.09154838088258,2023-12-15 00:29:53.387274+00:00,,,HOMBRE,36_45,NINGUNA,80
+708,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92550463090171,29.09162367320389,2023-12-15 00:29:53.387107+00:00,images/1a69ec93-bd08-4b33-b1e4-debf72b050e3.jpg,,HOMBRE,36_45,NINGUNA,80
+695,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92666618061142,29.090753542383688,2023-12-15 00:29:48.557407+00:00,images/cd8b94ac-57d2-40ad-97a7-9a0c5aa77115.jpg,,MUJER,56_65,NINGUNA,100
+693,Bienestar Socioeconómico,Actividades de comercio local,104,-110.9254766000014,29.09162626472681,2023-12-15 00:29:48.557016+00:00,images/8ea2c69a-7584-47c8-9480-b18ffc6b0429.jpg,,MUJER,56_65,NINGUNA,80
+604,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92602292614217,29.091311874027816,2023-12-15 00:26:16.017018+00:00,images/7f9e4611-3f15-404d-973f-d782e4ff3b15.jpg,,MUJER,36_45,NINGUNA,86
+593,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92589010000825,29.090909064777307,2023-12-15 00:25:40.793735+00:00,images/4e5346ff-d725-4857-b87c-7defe5d113a4.jpg,,MUJER,56_65,VISUAL,53
+592,Bienestar Socioeconómico,Actividades de comercio local,104,-110.9260421000022,29.09126686475828,2023-12-15 00:25:40.793672+00:00,,,MUJER,56_65,VISUAL,86
+591,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92594790000705,29.091386264747705,2023-12-15 00:25:40.793608+00:00,images/518af1cc-b190-4a62-98e2-0f5e89f9e97a.jpg,,MUJER,56_65,VISUAL,86
+590,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92540550000336,29.09171326472609,2023-12-15 00:25:40.793544+00:00,images/080d748a-f35b-41aa-b904-18642158cd3a.jpg,,MUJER,56_65,VISUAL,93
+589,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92510810000168,29.09179816471632,2023-12-15 00:25:40.793446+00:00,images/8a922af5-f252-4bf0-93d0-1ff8ae993b69.jpg,,MUJER,56_65,VISUAL,73
+588,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92539371961676,29.09423360230837,2023-12-15 00:25:40.793380+00:00,,,MUJER,56_65,VISUAL,80
+587,Bienestar Socioeconómico,Actividades de comercio local,104,-110.9251581294096,29.09370063143328,2023-12-15 00:25:40.793312+00:00,images/49717d9b-2735-44a2-90a8-9e7ac6f08adc.jpg,,MUJER,56_65,VISUAL,73
+584,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92727879999867,29.0936794646606,2023-12-15 00:25:40.793038+00:00,images/64498368-36df-4f69-be86-d47b7a8700c8.jpg,causa contaminación y llegan personas en estado de ebriedad intoxicación por amoniaco,MUJER,56_65,VISUAL,60
+580,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92737830000294,29.09072876475554,2023-12-15 00:25:40.792766+00:00,images/b6879e7e-d9b2-4434-aefb-4da17c19fb05.jpg,tienda de abarrotes,MUJER,56_65,VISUAL,87
+564,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92752943615947,29.09015245618982,2023-12-15 00:20:51.283346+00:00,images/1990f6a5-72f9-4834-b3d2-fad88cc60908.jpg,,HOMBRE,MENOS_18,NINGUNA,100
+560,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92680854888192,29.08933585058293,2023-12-15 00:20:51.283098+00:00,images/be429e9b-1b24-488d-808f-3fc6f0638a04.jpg,,HOMBRE,MENOS_18,NINGUNA,100
+540,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92612030924268,29.089248447631128,2023-12-15 00:19:11.677542+00:00,images/95e0720d-ea61-4c14-a6ce-c2c85eef8a58.jpg,queremos limpieza para que no se inunde pienso que con su mantenimiento será un área buena,MUJER,36_45,NINGUNA,59
+536,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92755872020948,29.09026903431961,2023-12-15 00:18:48.750706+00:00,,,HOMBRE,MAS_65,NINGUNA,86
+533,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92628271586692,29.08887206484945,2023-12-15 00:18:48.750475+00:00,images/56df926e-75e6-49d8-80de-f7c143226d6e.jpg,la comunidad lo nececita,HOMBRE,MAS_65,NINGUNA,100
+529,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92519587582422,29.08771408021816,2023-12-15 00:18:48.750186+00:00,images/ca8a2ab9-676d-48b2-a405-6968ed40be55.jpg,mucha utilidad para los vecinos,HOMBRE,MAS_65,NINGUNA,86
+507,Bienestar Socioeconómico,Actividades de comercio local,104,-110.9261535044511,29.089750281050875,2023-12-15 00:13:28.261659+00:00,,,HOMBRE,26_35,NINGUNA,33
+439,Bienestar Socioeconómico,Actividades de comercio local,104,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.313954+00:00,,,MUJER,26_35,NINGUNA,66
+438,Bienestar Socioeconómico,Actividades de comercio local,104,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.313890+00:00,,,MUJER,26_35,NINGUNA,73
+436,Bienestar Socioeconómico,Actividades de comercio local,104,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.313760+00:00,,,MUJER,26_35,NINGUNA,66
+425,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92642227003432,29.088027193042286,2023-12-15 00:01:35.703493+00:00,,,MUJER,46_55,VISUAL,93
+424,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92642227003432,29.088027193042286,2023-12-15 00:01:35.703429+00:00,,,MUJER,46_55,VISUAL,73
+396,Bienestar Socioeconómico,Actividades de comercio local,104,-110.9239496094574,29.094644736092697,2023-12-15 00:00:53.245565+00:00,,,MUJER,MENOS_18,NINGUNA,80
+519,Bienestar Socioeconómico,Actividades de participación comunitaria,105,-110.92745240444052,29.09052748099865,2023-12-15 00:13:28.262809+00:00,images/f0d78e8b-9eb6-4681-b153-b9eba1afdab5.jpg,,HOMBRE,26_35,NINGUNA,40
+726,Bienestar Socioeconómico,Actividades deportivas,106,-110.92545310000006,29.088439852827484,2023-12-19 21:57:35.355383+00:00,,,MUJER,MENOS_18,NINGUNA,0
+582,Bienestar Socioeconómico,Actividades deportivas,106,-110.92656949999486,29.092189664702303,2023-12-15 00:25:40.792900+00:00,images/c5425837-5494-43d1-ad58-87271a07e832.jpg,descuidada ,MUJER,56_65,VISUAL,73
+571,Bienestar Socioeconómico,Actividades deportivas,106,-110.9255759457577,29.088726311356886,2023-12-15 00:23:36.624852+00:00,images/ecd0e224-bc28-4742-a542-73d6290edede.jpg,queremos un lugar optimo ,MUJER,46_55,NINGUNA,80
+549,Bienestar Socioeconómico,Actividades deportivas,106,-110.92503466167058,29.088006594243367,2023-12-15 00:20:51.282262+00:00,images/705ae301-390d-4c22-94a0-b96c3d943784.jpg,,HOMBRE,MENOS_18,NINGUNA,80
+547,Bienestar Socioeconómico,Actividades deportivas,106,-110.92532457884867,29.088399954572395,2023-12-15 00:20:51.282066+00:00,,no podemos jugar béisbol pq es mu chiquita ,HOMBRE,MENOS_18,NINGUNA,100
+538,Bienestar Socioeconómico,Actividades deportivas,106,-110.92612030924268,29.089248447631128,2023-12-15 00:19:11.677385+00:00,images/6f7f93c9-be75-48f6-964e-6e1500079906.jpg,prestar más trabajos de limpieza ,MUJER,36_45,NINGUNA,73
+525,Bienestar Socioeconómico,Actividades deportivas,106,-110.92664730443244,29.092168812315656,2023-12-15 00:13:28.263443+00:00,images/749cea44-5025-4d47-ae66-76fffea9c6ac.jpg,,HOMBRE,26_35,NINGUNA,46
+508,Bienestar Socioeconómico,Actividades deportivas,106,-110.9261535044511,29.089750281050875,2023-12-15 00:13:28.261757+00:00,,,HOMBRE,26_35,NINGUNA,33
+490,Bienestar Socioeconómico,Actividades deportivas,106,-110.92648585052297,29.089845466743355,2023-12-15 00:11:53.997724+00:00,,,HOMBRE,18_25,NINGUNA,60
+489,Bienestar Socioeconómico,Actividades deportivas,106,-110.92735819452524,29.08953217957552,2023-12-15 00:11:53.997604+00:00,,,HOMBRE,18_25,NINGUNA,60
+421,Bienestar Socioeconómico,Actividades deportivas,106,-110.92617049999716,29.08975396480744,2023-12-15 00:01:35.703126+00:00,images/0b61a4dc-95f4-409f-9bfd-a0f3be877274.jpg,no hay vancas ni lugares cómodos para poder observar los juegos cómodamente.  además que no hay limpieza por parte de los jugadores y dejan botes de cerveza y de alimentos ,MUJER,46_55,VISUAL,53
+360,Bienestar Socioeconómico,Actividades deportivas,106,-110.92519506410989,29.08861739625885,2023-12-14 23:18:48.603662+00:00,,,MUJER,18_25,NINGUNA,60
+520,Bienestar Socioeconómico,"Mercados locales, fruterías, verdulerías",107,-110.92826420442742,29.09122738096525,2023-12-15 00:13:28.262905+00:00,,,HOMBRE,26_35,NINGUNA,66
+398,Bienestar Socioeconómico,"Mercados locales, fruterías, verdulerías",107,-110.92626338855511,29.092386775386643,2023-12-15 00:00:53.245697+00:00,,,MUJER,MENOS_18,NINGUNA,77
+727,Calidad medioambiental,Contaminación del aire,109,-110.92545310000006,29.088439852827484,2023-12-19 21:57:35.355456+00:00,,,MUJER,MENOS_18,NINGUNA,0
+685,Calidad medioambiental,Contaminación del aire,109,-110.92605153090224,29.090105865716158,2023-12-15 00:28:41.391321+00:00,images/b63285ae-f855-4e27-9604-1fb004dd92d0.jpg,mal olor por drenaje abierto h acumulación de agua,MUJER,56_65,NINGUNA,0
+684,Calidad medioambiental,Contaminación del aire,109,-110.92599873089712,29.0903317656786,2023-12-15 00:28:41.391213+00:00,images/0df1a563-2541-411a-a6fc-a9da03b8f5e8.jpg,,MUJER,56_65,NINGUNA,0
+670,Calidad medioambiental,Contaminación del aire,109,-110.92490900525786,29.08959777925437,2023-12-15 00:28:41.389591+00:00,images/485ee678-2802-4315-ad37-3c4b73b8d429.jpg,,MUJER,56_65,NINGUNA,0
+669,Calidad medioambiental,Contaminación del aire,109,-110.92490083090463,29.08961206575021,2023-12-15 00:28:41.389453+00:00,images/3abdc652-c3da-4338-8312-003542023ec2.jpg,mal olor de drenaje,MUJER,56_65,NINGUNA,0
+663,Calidad medioambiental,Contaminación del aire,109,-110.92560670000503,29.090061454718352,2023-12-15 00:26:59.264739+00:00,images/46d78dd8-48e3-4b33-a838-2374b138f10d.jpg,drenaje,MUJER,36_45,NINGUNA,0
+661,Calidad medioambiental,Contaminación del aire,109,-110.92492014095664,29.093163054370343,2023-12-15 00:26:59.264570+00:00,images/a64d4c34-016e-431d-8c20-0c21dc1ad3d7.jpg,quema de basura es un tiradero clandestino acomulacipn de basura pues ya ven en la foto,MUJER,36_45,NINGUNA,0
+660,Calidad medioambiental,Contaminación del aire,109,-110.92480570000345,29.093173054498344,2023-12-15 00:26:59.264487+00:00,images/326f54eb-3c06-469e-9258-a1d98000f847.jpg,,MUJER,36_45,NINGUNA,9
+656,Calidad medioambiental,Contaminación del aire,109,-110.92689200000012,29.09399845445753,2023-12-15 00:26:59.264112+00:00,images/316eede5-9f81-48b4-ae5b-666c9078e0ab.jpg,mucho esmoc polvo y mal olor,MUJER,36_45,NINGUNA,0
+650,Calidad medioambiental,Contaminación del aire,109,-110.92612141183346,29.08982185475228,2023-12-15 00:26:59.263493+00:00,images/abdfecc6-054b-4ffa-a84f-17d35d92f2cc.jpg,,MUJER,36_45,NINGUNA,24
+647,Calidad medioambiental,Contaminación del aire,109,-110.92574199999784,29.09044256477272,2023-12-15 00:26:53.443097+00:00,images/668a3379-1980-479a-9d10-4503316d335f.jpg,,MUJER,MAS_65,VISUAL,0
+625,Calidad medioambiental,Contaminación del aire,109,-110.92574199999784,29.09044256477272,2023-12-15 00:26:19.690399+00:00,images/1f24c5c0-1fc7-4068-a7a4-3bf517e83e47.jpg,,MUJER,MAS_65,VISUAL,0
+570,Calidad medioambiental,Contaminación del aire,109,-110.92551236661194,29.08909855593908,2023-12-15 00:23:36.624732+00:00,,posición ilegal Pra quema.de.basura ,MUJER,46_55,NINGUNA,4
+565,Calidad medioambiental,Contaminación del aire,109,-110.9281631891194,29.090176826602796,2023-12-15 00:20:51.283407+00:00,images/d4891431-e670-485e-a84b-dac6887da867.jpg,,HOMBRE,MENOS_18,NINGUNA,0
+548,Calidad medioambiental,Contaminación del aire,109,-110.92578997121802,29.088893319105598,2023-12-15 00:20:51.282192+00:00,images/c80466a8-39ad-4b6d-8cd2-067b5145beb3.jpg,,HOMBRE,MENOS_18,NINGUNA,24
+539,Calidad medioambiental,Contaminación del aire,109,-110.92612030924268,29.089248447631128,2023-12-15 00:19:11.677473+00:00,images/8ccb5681-ec1b-42e6-8b7a-e3bfc7e8f8aa.jpg,poseecion ilegal de sona Verde protejida para su uso de quema clandestina de basura ,MUJER,36_45,NINGUNA,12
+509,Calidad medioambiental,Contaminación del aire,109,-110.9261535044511,29.089750281050875,2023-12-15 00:13:28.261841+00:00,,,HOMBRE,26_35,NINGUNA,28
+498,Calidad medioambiental,Contaminación del aire,109,-110.92851421867148,29.091074835779324,2023-12-15 00:11:53.998422+00:00,images/2be4cd1c-f897-4458-8509-c839d6bdaca2.jpg,,HOMBRE,18_25,NINGUNA,0
+495,Calidad medioambiental,Contaminación del aire,109,-110.92803951678894,29.09049356704719,2023-12-15 00:11:53.998194+00:00,,,HOMBRE,18_25,NINGUNA,0
+493,Calidad medioambiental,Contaminación del aire,109,-110.92618419240688,29.09041269153949,2023-12-15 00:11:53.997961+00:00,,,HOMBRE,18_25,NINGUNA,0
+492,Calidad medioambiental,Contaminación del aire,109,-110.92697115536872,29.09033828427514,2023-12-15 00:11:53.997882+00:00,,,HOMBRE,18_25,NINGUNA,44
+451,Calidad medioambiental,Contaminación del aire,109,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314793+00:00,,,MUJER,26_35,NINGUNA,0
+431,Calidad medioambiental,Contaminación del aire,109,-0.0057303916508999,0.0002545275273959,2023-12-15 00:01:47.313411+00:00,,,MUJER,26_35,NINGUNA,0
+430,Calidad medioambiental,Contaminación del aire,109,-0.0057303916508999,0.0002545275273959,2023-12-15 00:01:47.313346+00:00,,,MUJER,26_35,NINGUNA,0
+361,Calidad medioambiental,Contaminación del aire,109,-110.92563679541531,29.08983905379222,2023-12-14 23:18:48.603743+00:00,,,MUJER,18_25,NINGUNA,0
+712,Calidad medioambiental,Drenaje y alcantarillado,110,-110.92791580000878,29.09057986477004,2023-12-15 00:33:49.550537+00:00,images/dd345b8a-a2a0-43d0-8c38-f96c420941c0.jpg,,HOMBRE,18_25,NINGUNA,66
+703,Calidad medioambiental,Drenaje y alcantarillado,110,-110.92453433772164,29.089490426319543,2023-12-15 00:29:53.386783+00:00,images/3ed0cf12-1838-4be3-a557-1fc5967911aa.jpg,,HOMBRE,36_45,NINGUNA,14
+607,Calidad medioambiental,Drenaje y alcantarillado,110,-110.92578882613768,29.090530274060622,2023-12-15 00:26:16.017247+00:00,images/1533f6b8-4c4b-4dd1-a454-db1a3725f80a.jpg,,MUJER,36_45,NINGUNA,9
+517,Calidad medioambiental,Drenaje y alcantarillado,110,-110.92745240444052,29.09052748099865,2023-12-15 00:13:28.262612+00:00,images/f1917e7a-f93f-4466-851e-c8b61de0cd45.jpg,,HOMBRE,26_35,NINGUNA,0
+496,Calidad medioambiental,Drenaje y alcantarillado,110,-110.92746731317564,29.09041356380397,2023-12-15 00:11:53.998292+00:00,images/0d247e43-0917-43b6-bc64-350ee2fed6f6.jpg,,HOMBRE,18_25,NINGUNA,33
+479,Calidad medioambiental,Drenaje y alcantarillado,110,-110.92769248241888,29.09020962355717,2023-12-15 00:11:33.407775+00:00,images/07fe623b-2dee-4504-8fe7-703ea670fb61.jpg,,MUJER,18_25,NINGUNA,6
+462,Calidad medioambiental,Drenaje y alcantarillado,110,-110.92769248241888,29.09020962355717,2023-12-15 00:10:34.549152+00:00,images/d59643c2-6c1d-46dd-8b17-a77940fe9118.jpg,,MUJER,18_25,NINGUNA,6
+447,Calidad medioambiental,Drenaje y alcantarillado,110,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314503+00:00,images/16a02235-20c9-4f98-afcc-5d41702384a1.jpg,,MUJER,26_35,NINGUNA,0
+446,Calidad medioambiental,Drenaje y alcantarillado,110,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314439+00:00,images/4f891e66-e91e-4c4f-8803-62d76b7ea38f.jpg,,MUJER,26_35,NINGUNA,0
+445,Calidad medioambiental,Drenaje y alcantarillado,110,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314375+00:00,images/865bf2d8-23c6-427d-a7d5-37805fe7125d.jpg,,MUJER,26_35,NINGUNA,0
+442,Calidad medioambiental,Drenaje y alcantarillado,110,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314187+00:00,images/f4d91bf6-bc79-4bf0-8792-fdcb724eb086.jpg,,MUJER,26_35,NINGUNA,0
+401,Calidad medioambiental,Drenaje y alcantarillado,110,-110.92235173660129,29.0903907541119,2023-12-15 00:00:53.245885+00:00,,,MUJER,MENOS_18,NINGUNA,5
+676,Calidad medioambiental,Fuentes naturales de agua,111,-110.92283575435346,29.09147012041081,2023-12-15 00:28:41.390232+00:00,images/de10d3a9-5558-4ead-834a-a54d0d66866b.jpg,,MUJER,56_65,NINGUNA,11
+444,Calidad medioambiental,Fuentes naturales de agua,111,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314312+00:00,,,MUJER,26_35,NINGUNA,0
+733,Calidad medioambiental,Puntos de acumulación de basura,115,-110.9240375000042,29.08817635281393,2023-12-19 21:57:35.355858+00:00,,,MUJER,MENOS_18,NINGUNA,0
+701,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92601026463988,29.089651692006846,2023-12-15 00:29:53.386648+00:00,images/6087c8f2-3460-453c-ae99-d1112294eecc.jpg,,HOMBRE,36_45,NINGUNA,20
+689,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92404089999869,29.091740864721334,2023-12-15 00:29:48.556616+00:00,images/c915f9c7-6083-433c-8ae8-0865926581cc.jpg,es un baudero no se puede andar agusto de la basura que tienen,MUJER,56_65,NINGUNA,7
+688,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92382870000256,29.09130036473534,2023-12-15 00:29:48.556545+00:00,images/bd0e0b38-7826-4fac-9dca-1f8c5ce98458.jpg,es lo que uno habla que nomas vienen a tirar basura a la presa ... ,MUJER,56_65,NINGUNA,7
+675,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92400220735044,29.091726752205663,2023-12-15 00:28:41.390126+00:00,images/a7a91046-b4b4-4067-972e-9735de214c25.jpg,,MUJER,56_65,NINGUNA,41
+674,Calidad medioambiental,Puntos de acumulación de basura,115,-110.9237644309075,29.091389065607075,2023-12-15 00:28:41.390020+00:00,images/5c7e1d0b-ccfa-471c-8ba1-ef1f7f10d354.jpg,vertedero de basura ilegal al lado de la presa,MUJER,56_65,NINGUNA,46
+662,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92560670000503,29.090061454718352,2023-12-15 00:26:59.264654+00:00,images/480be64f-dfef-488a-bf13-69f9a1cd6ef0.jpg,,MUJER,36_45,NINGUNA,0
+653,Calidad medioambiental,Puntos de acumulación de basura,115,-110.9260708065739,29.0895403524614,2023-12-15 00:26:59.263878+00:00,images/ed7013c0-e18b-4e14-9019-007d75850bde.jpg,mucha basura ,MUJER,36_45,NINGUNA,0
+651,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92612141183346,29.08982185475228,2023-12-15 00:26:59.263605+00:00,images/12e691d0-b7df-4784-9526-077f0a219937.jpg,acumulación de basura ,MUJER,36_45,NINGUNA,13
+574,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92629647357076,29.088348011964435,2023-12-15 00:23:36.625138+00:00,images/699d9411-101d-480d-bd26-d55b2f74d198.jpg,es un peligro ,MUJER,46_55,NINGUNA,0
+559,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92632770427228,29.08897189645586,2023-12-15 00:20:51.283036+00:00,images/694b261d-5ccf-4763-9dc1-b124a4bdada6.jpg,,HOMBRE,MENOS_18,NINGUNA,0
+551,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92551993351466,29.088127760659678,2023-12-15 00:20:51.282392+00:00,images/791f1777-6b00-4a43-8b81-5c8aef7d2f71.jpg,,HOMBRE,MENOS_18,NINGUNA,0
+543,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92612030924268,29.089248447631128,2023-12-15 00:19:11.677869+00:00,images/ed446828-365f-494a-bd43-5f6644ea0ca8.jpg,poner enfasus en recolección de limpieza y sancionar a quien delinquen,MUJER,36_45,NINGUNA,0
+532,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92628271586692,29.08887206484945,2023-12-15 00:18:48.750398+00:00,images/49225993-e6ef-467d-b904-55a58448906e.jpg,mucha basura acumulada,HOMBRE,MAS_65,NINGUNA,20
+518,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92745240444052,29.09052748099865,2023-12-15 00:13:28.262713+00:00,images/7d8f54a5-217a-4261-ac5a-5eeb26da0788.jpg,,HOMBRE,26_35,NINGUNA,0
+503,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92766980459275,29.091769034217958,2023-12-15 00:11:53.998870+00:00,images/2dcacc96-e16d-40c2-a15e-4d6941a50603.jpg,,HOMBRE,18_25,NINGUNA,0
+486,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92594170000416,29.09110666474469,2023-12-15 00:11:33.408285+00:00,images/42ff11d0-5a24-41a2-8348-dda9e0ae9c78.jpg,,MUJER,18_25,NINGUNA,0
+485,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92648500000502,29.09224166470393,2023-12-15 00:11:33.408186+00:00,images/50a836d0-6289-4660-a331-360824165bd6.jpg,,MUJER,18_25,NINGUNA,0
+482,Calidad medioambiental,Puntos de acumulación de basura,115,-110.9281361999944,29.09147746472368,2023-12-15 00:11:33.407970+00:00,images/9de0df1e-3d66-4ff3-9bcc-565d6ee7debb.jpg,,MUJER,18_25,NINGUNA,40
+481,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92769209999732,29.091260464742252,2023-12-15 00:11:33.407909+00:00,images/9c8c9163-656d-4cca-ae32-5c92dad96bad.jpg,,MUJER,18_25,NINGUNA,26
+480,Calidad medioambiental,Puntos de acumulación de basura,115,-110.9283832999941,29.09094696475068,2023-12-15 00:11:33.407846+00:00,images/e827cc70-6260-45c5-bcf1-0c9702d79bb6.jpg,,MUJER,18_25,NINGUNA,0
+478,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92761440000191,29.0904527647615,2023-12-15 00:11:33.407713+00:00,images/cb2d157c-5f66-47f8-ba08-006d9dac5bd4.jpg,,MUJER,18_25,NINGUNA,0
+477,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92739530000628,29.090568064774597,2023-12-15 00:11:33.407651+00:00,images/3acf12f6-452d-48fd-8c83-ccc66ebc812c.jpg,,MUJER,18_25,NINGUNA,26
+476,Calidad medioambiental,Puntos de acumulación de basura,115,-110.9273361999993,29.090560464767144,2023-12-15 00:11:33.407589+00:00,images/570ecaad-140d-415d-bf29-94970389ad34.jpg,,MUJER,18_25,NINGUNA,26
+475,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92687494096668,29.090082360826077,2023-12-15 00:11:33.407526+00:00,images/d61044d1-6880-4b5f-9ae3-5ba382808565.jpg,,MUJER,18_25,NINGUNA,13
+474,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92652267059384,29.089958668271976,2023-12-15 00:11:33.407462+00:00,images/9115095c-d1ad-443a-a8e0-fd13882467c3.jpg,,MUJER,18_25,NINGUNA,20
+473,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92637921209416,29.090691400402363,2023-12-15 00:11:33.407400+00:00,images/d5ed7fe1-3d22-44c9-b78b-c83c0603ab95.jpg,,MUJER,18_25,NINGUNA,20
+472,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92618761756157,29.089731163763915,2023-12-15 00:11:33.407330+00:00,images/35767433-18b7-455d-8ae5-403ee39abca0.jpg,,MUJER,18_25,NINGUNA,26
+469,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92594170000416,29.09110666474469,2023-12-15 00:10:34.549674+00:00,images/bf877681-b9a6-421a-a1be-2c56b80c35d4.jpg,,MUJER,18_25,NINGUNA,0
+468,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92648500000502,29.09224166470393,2023-12-15 00:10:34.549606+00:00,images/00931854-992e-4153-b9e6-dadd837d2ee2.jpg,,MUJER,18_25,NINGUNA,0
+465,Calidad medioambiental,Puntos de acumulación de basura,115,-110.9281361999944,29.09147746472368,2023-12-15 00:10:34.549382+00:00,images/f37a4b7c-fd95-4254-b3c9-f79b7bbe3a9a.jpg,,MUJER,18_25,NINGUNA,40
+464,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92769209999732,29.091260464742252,2023-12-15 00:10:34.549312+00:00,images/0461db63-bd48-43b2-8a6e-c143b292c23e.jpg,,MUJER,18_25,NINGUNA,26
+463,Calidad medioambiental,Puntos de acumulación de basura,115,-110.9283832999941,29.09094696475068,2023-12-15 00:10:34.549223+00:00,images/74f8111e-45ba-4112-a0d7-0d4a00e27f7d.jpg,,MUJER,18_25,NINGUNA,0
+461,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92761440000191,29.0904527647615,2023-12-15 00:10:34.549058+00:00,images/b0a1a4fb-a58b-486c-9e87-96e18f8892a7.jpg,,MUJER,18_25,NINGUNA,0
+460,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92739530000628,29.090568064774597,2023-12-15 00:10:34.548990+00:00,images/8ab3df7c-5877-445a-8d73-3fde1d487810.jpg,,MUJER,18_25,NINGUNA,26
+459,Calidad medioambiental,Puntos de acumulación de basura,115,-110.9273361999993,29.090560464767144,2023-12-15 00:10:34.548921+00:00,images/0830291e-51ab-4b28-a786-44722abcedd4.jpg,,MUJER,18_25,NINGUNA,26
+458,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92687494096668,29.090082360826077,2023-12-15 00:10:34.548851+00:00,images/e79db35f-6657-4bfd-adaa-17fe9dec4f4b.jpg,,MUJER,18_25,NINGUNA,13
+457,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92652267059384,29.089958668271976,2023-12-15 00:10:34.548781+00:00,images/a5bb091c-0066-45f1-99e7-3418c22080ec.jpg,,MUJER,18_25,NINGUNA,20
+456,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92637921209416,29.090691400402363,2023-12-15 00:10:34.548712+00:00,images/5e1328bf-0bb5-41a8-928b-73f8edd71ba2.jpg,,MUJER,18_25,NINGUNA,20
+455,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92618761756157,29.089731163763915,2023-12-15 00:10:34.548642+00:00,images/aed49796-faf3-40e8-9095-0967c8ccae7b.jpg,,MUJER,18_25,NINGUNA,26
+452,Calidad medioambiental,Puntos de acumulación de basura,115,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314853+00:00,,,MUJER,26_35,NINGUNA,13
+450,Calidad medioambiental,Puntos de acumulación de basura,115,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314731+00:00,images/c706c49b-6367-4489-8804-375bb7e60638.jpg,,MUJER,26_35,NINGUNA,0
+449,Calidad medioambiental,Puntos de acumulación de basura,115,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314665+00:00,images/def451cd-7bee-4a1b-9d71-9b1600378ea5.jpg,,MUJER,26_35,NINGUNA,0
+440,Calidad medioambiental,Puntos de acumulación de basura,115,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314056+00:00,images/d58916f3-a56f-4bd9-8f4e-4475132daeb6.jpg,,MUJER,26_35,NINGUNA,7
+400,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92411412675972,29.09255083137814,2023-12-15 00:00:53.245823+00:00,,,MUJER,MENOS_18,NINGUNA,20
+367,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92579966179852,29.089896048034248,2023-12-14 23:32:16.555963+00:00,,,MUJER,MAS_65,NINGUNA,7
+362,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92549442608905,29.090099043253232,2023-12-14 23:18:48.603820+00:00,,,MUJER,18_25,NINGUNA,0
