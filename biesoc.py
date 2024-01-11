@@ -2,10 +2,8 @@
 # Referencias:
 # * https://docs.google.com/spreadsheets/d/1owfdwKv25AkBEb5QuA0nNwKj4LoEXVo2/edit#gid=1512333624
 # * Gestor de Mapeo
-import pandas as pd
 
 import utils
-from statistics import mean
 
 
 # ------------------------------------------------------------
@@ -15,21 +13,9 @@ from statistics import mean
 #   empleo en el barrio
 # ------------------------------------------------------------
 def oc1(mapeo):
-    evaluaciones = []
     code = 'dim_biensoc_22'
-    if not pd.isna(mapeo[code + 'c']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'e']))
-    if not pd.isna(mapeo[code + 'f']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'f']))
-    if not pd.isna(mapeo[code + 'g']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'g']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['c', 'd', 'e', 'f', 'g']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_nmrb)
 
 
 # ------------------------------------------------------------
@@ -37,23 +23,9 @@ def oc1(mapeo):
 # Actividad: Mercados locales, fruterías, verdulerías (oc3)
 # ------------------------------------------------------------
 def oc3(mapeo):
-    evaluaciones = []
     code = 'dim_biensoc_24'
-    if not pd.isna(mapeo[code + 'c']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'e']))
-    if not pd.isna(mapeo[code + 'f']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'f']))
-    if not pd.isna(mapeo[code + 'g']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'g']))
-    if not pd.isna(mapeo[code + 'h']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'h']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['c', 'd', 'e', 'f', 'g', 'h']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_nmrb)
 
 
 # ------------------------------------------------------------
@@ -61,13 +33,9 @@ def oc3(mapeo):
 # Actividad: Puntos de internet (oc2)
 # ------------------------------------------------------------
 def oc2(mapeo):
-    evaluaciones = []
     code = 'dim_biensoc_23'
-    if not pd.isna(mapeo[code + 'c']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'c']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['c']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_nmrb)
 
 
 # ------------------------------------------------------------
@@ -76,21 +44,9 @@ def oc2(mapeo):
 # Expresiones y eventos que celebran y promueven la cultura e identidad de una comunidad
 # ------------------------------------------------------------
 def oc4(mapeo):
-    evaluaciones = []
     code = 'dim_biensoc_25'
-    if not pd.isna(mapeo[code + 'c']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'e']))
-    if not pd.isna(mapeo[code + 'f']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'f']))
-    if not pd.isna(mapeo[code + 'g']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'g']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['c', 'd', 'e', 'f', 'g']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_nmrb)
 
 
 # ------------------------------------------------------------
@@ -100,21 +56,9 @@ def oc4(mapeo):
 #   su comunidad
 # ------------------------------------------------------------
 def oc5(mapeo):
-    evaluaciones = []
     code = 'dim_biensoc_26'
-    if not pd.isna(mapeo[code + 'c']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'e']))
-    if not pd.isna(mapeo[code + 'f']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'f']))
-    if not pd.isna(mapeo[code + 'g']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'g']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['c', 'd', 'e', 'f', 'g']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_nmrb)
 
 
 # ------------------------------------------------------------
@@ -122,18 +66,6 @@ def oc5(mapeo):
 # Actividad: Actividades desportivas (oc6)
 # ------------------------------------------------------------
 def oc6(mapeo):
-    evaluaciones = []
     code = 'dim_biensoc_27'
-    if not pd.isna(mapeo[code + 'c']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'e']))
-    if not pd.isna(mapeo[code + 'f']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'f']))
-    if not pd.isna(mapeo[code + 'g']):
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'g']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['c', 'd', 'e', 'f', 'g']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_nmrb)

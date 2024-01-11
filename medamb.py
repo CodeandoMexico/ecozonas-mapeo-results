@@ -2,10 +2,8 @@
 # Referencias:
 # * https://docs.google.com/spreadsheets/d/1owfdwKv25AkBEb5QuA0nNwKj4LoEXVo2/edit#gid=1512333624
 # * Gestor de Mapeo
-import pandas as pd
 
 import utils
-from statistics import mean
 
 
 # ------------------------------------------------------------
@@ -14,25 +12,9 @@ from statistics import mean
 # Características de los basureros y contenedores de basura
 # ------------------------------------------------------------
 def ob1(mapeo):
-    evaluaciones = []
     code = 'dim_medamb_14'
-    if not pd.isna(mapeo[code + 'b']) and mapeo[code + 'b'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_nmrb(mapeo[code + 'b']))
-    if not pd.isna(mapeo[code + 'c']) and mapeo[code + 'c'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_nmrb(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']) and mapeo[code + 'd'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_nmrb(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']) and mapeo[code + 'e'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_nmrb(mapeo[code + 'e']))
-    if not pd.isna(mapeo[code + 'f']) and mapeo[code + 'f'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_nmrb(mapeo[code + 'f']))
-    if not pd.isna(mapeo[code + 'g']) and mapeo[code + 'g'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_nmrb(mapeo[code + 'g']))
-    if not pd.isna(mapeo[code + 'h']) and mapeo[code + 'h'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_nmrb(mapeo[code + 'h']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['b', 'c', 'd', 'e', 'f', 'g', 'h']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_nmrb)
 
 
 # ------------------------------------------------------------
@@ -42,21 +24,9 @@ def ob1(mapeo):
 #   no tratados en un área designada.
 # ------------------------------------------------------------
 def ob3(mapeo):
-    evaluaciones = []
     code = 'dim_medamb_16'
-    if not pd.isna(mapeo[code + 'b']) and mapeo[code + 'b'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'b']))
-    if not pd.isna(mapeo[code + 'c']) and mapeo[code + 'c'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']) and mapeo[code + 'd'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']) and mapeo[code + 'e'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'e']))
-    if not pd.isna(mapeo[code + 'f']) and mapeo[code + 'f'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'f']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['b', 'c', 'd', 'e', 'f']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_gml)
 
 
 # ------------------------------------------------------------
@@ -65,27 +35,9 @@ def ob3(mapeo):
 # Presencia de sustancias dañinas en el aire que respiramos, que pueden implicar riesgo, daño o molestia
 # ------------------------------------------------------------
 def ob4(mapeo):
-    evaluaciones = []
     code = 'dim_medamb_18'
-    if not pd.isna(mapeo[code + 'a']) and mapeo[code + 'a'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'a']))
-    if not pd.isna(mapeo[code + 'b']) and mapeo[code + 'b'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'b']))
-    if not pd.isna(mapeo[code + 'c']) and mapeo[code + 'c'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']) and mapeo[code + 'd'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']) and mapeo[code + 'e'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'e']))
-    if not pd.isna(mapeo[code + 'f']) and mapeo[code + 'f'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'f']))
-    if not pd.isna(mapeo[code + 'g']) and mapeo[code + 'g'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'g']))
-    if not pd.isna(mapeo[code + 'h']) and mapeo[code + 'h'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'h']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_gml)
 
 
 # ------------------------------------------------------------
@@ -94,19 +46,9 @@ def ob4(mapeo):
 # Instalaciones que proporcionan agua segura y apta para el consumo humano,
 # ------------------------------------------------------------
 def ob5(mapeo):
-    evaluaciones = []
     code = 'dim_medamb_19'
-    if not pd.isna(mapeo[code + 'c']) and mapeo[code + 'c'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']) and mapeo[code + 'd'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']) and mapeo[code + 'e'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'e']))
-    if not pd.isna(mapeo[code + 'f']) and mapeo[code + 'f'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_mrb(mapeo[code + 'f']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['c', 'd', 'e', 'f']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_nmrb)
 
 
 # ------------------------------------------------------------
@@ -115,17 +57,9 @@ def ob5(mapeo):
 # Lugares donde el agua se encuentra de manera natural, como ríos, lagos, entre otros
 # ------------------------------------------------------------
 def ob6(mapeo):
-    evaluaciones = []
     code = 'dim_medamb_20'
-    if not pd.isna(mapeo[code + 'c']) and mapeo[code + 'c'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']) and mapeo[code + 'd'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']) and mapeo[code + 'e'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'e']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['c', 'd', 'e']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_gml)
 
 
 # ------------------------------------------------------------
@@ -135,22 +69,6 @@ def ob6(mapeo):
 #   aguas residuales y pluviales.
 # ------------------------------------------------------------
 def ob7(mapeo):
-    evaluaciones = []
     code = 'dim_medamb_21'
-    if not pd.isna(mapeo[code + 'c']) and mapeo[code + 'c'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'c']))
-    if not pd.isna(mapeo[code + 'd']) and mapeo[code + 'd'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'd']))
-    if not pd.isna(mapeo[code + 'e']) and mapeo[code + 'e'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'e']))
-    if not pd.isna(mapeo[code + 'f']) and mapeo[code + 'f'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'f']))
-    if not pd.isna(mapeo[code + 'g']) and mapeo[code + 'g'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'g']))
-    if not pd.isna(mapeo[code + 'h']) and mapeo[code + 'h'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'h']))
-    if not pd.isna(mapeo[code + 'i']) and mapeo[code + 'i'] != utils.Constants.NINGUNO.value:
-        evaluaciones.append(utils.remap_gml(mapeo[code + 'i']))
-    if len(evaluaciones) > 0:
-        return mean(evaluaciones)
-    return 0
+    letters = ['c', 'd', 'e', 'f', 'g', 'h', 'i']
+    return utils.calculate_score(mapeo, code, letters, utils.remap_gml)

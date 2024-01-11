@@ -4,7 +4,6 @@ id,category_name,activity_title,activity_id,longitude,latitude,date,image,commen
 568,Bienestar Socioeconómico,Actividades culturales,103,-110.92761853816312,29.090523472146792,2023-12-15 00:20:51.283590+00:00,images/6e6782da-d2ff-4c6f-a3a3-f109c3df3b66.jpg,,HOMBRE,MENOS_18,NINGUNA,100
 506,Bienestar Socioeconómico,Actividades culturales,103,-110.9261535044511,29.089750281050875,2023-12-15 00:13:28.261558+00:00,,,HOMBRE,26_35,NINGUNA,33
 359,Bienestar Socioeconómico,Actividades culturales,103,-110.9264743102917,29.09006166764182,2023-12-14 23:18:48.603551+00:00,images/a20bfeab-5d78-433f-8920-c7285e29804b.jpg,,MUJER,18_25,NINGUNA,60
-725,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92554209999578,29.088500352830657,2023-12-19 21:57:35.355287+00:00,,,MUJER,MENOS_18,NINGUNA,0
 710,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92576704860224,29.09154838088258,2023-12-15 00:29:53.387274+00:00,,,HOMBRE,36_45,NINGUNA,80
 708,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92550463090171,29.09162367320389,2023-12-15 00:29:53.387107+00:00,images/1a69ec93-bd08-4b33-b1e4-debf72b050e3.jpg,,HOMBRE,36_45,NINGUNA,80
 695,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92666618061142,29.090753542383688,2023-12-15 00:29:48.557407+00:00,images/cd8b94ac-57d2-40ad-97a7-9a0c5aa77115.jpg,,MUJER,56_65,NINGUNA,100
@@ -33,7 +32,6 @@ id,category_name,activity_title,activity_id,longitude,latitude,date,image,commen
 424,Bienestar Socioeconómico,Actividades de comercio local,104,-110.92642227003432,29.088027193042286,2023-12-15 00:01:35.703429+00:00,,,MUJER,46_55,VISUAL,73
 396,Bienestar Socioeconómico,Actividades de comercio local,104,-110.9239496094574,29.094644736092697,2023-12-15 00:00:53.245565+00:00,,,MUJER,MENOS_18,NINGUNA,80
 519,Bienestar Socioeconómico,Actividades de participación comunitaria,105,-110.92745240444052,29.09052748099865,2023-12-15 00:13:28.262809+00:00,images/f0d78e8b-9eb6-4681-b153-b9eba1afdab5.jpg,,HOMBRE,26_35,NINGUNA,40
-726,Bienestar Socioeconómico,Actividades deportivas,106,-110.92545310000006,29.088439852827484,2023-12-19 21:57:35.355383+00:00,,,MUJER,MENOS_18,NINGUNA,0
 582,Bienestar Socioeconómico,Actividades deportivas,106,-110.92656949999486,29.092189664702303,2023-12-15 00:25:40.792900+00:00,images/c5425837-5494-43d1-ad58-87271a07e832.jpg,descuidada ,MUJER,56_65,VISUAL,73
 571,Bienestar Socioeconómico,Actividades deportivas,106,-110.9255759457577,29.088726311356886,2023-12-15 00:23:36.624852+00:00,images/ecd0e224-bc28-4742-a542-73d6290edede.jpg,queremos un lugar optimo ,MUJER,46_55,NINGUNA,80
 549,Bienestar Socioeconómico,Actividades deportivas,106,-110.92503466167058,29.088006594243367,2023-12-15 00:20:51.282262+00:00,images/705ae301-390d-4c22-94a0-b96c3d943784.jpg,,HOMBRE,MENOS_18,NINGUNA,80
@@ -47,7 +45,6 @@ id,category_name,activity_title,activity_id,longitude,latitude,date,image,commen
 360,Bienestar Socioeconómico,Actividades deportivas,106,-110.92519506410989,29.08861739625885,2023-12-14 23:18:48.603662+00:00,,,MUJER,18_25,NINGUNA,60
 520,Bienestar Socioeconómico,"Mercados locales, fruterías, verdulerías",107,-110.92826420442742,29.09122738096525,2023-12-15 00:13:28.262905+00:00,,,HOMBRE,26_35,NINGUNA,66
 398,Bienestar Socioeconómico,"Mercados locales, fruterías, verdulerías",107,-110.92626338855511,29.092386775386643,2023-12-15 00:00:53.245697+00:00,,,MUJER,MENOS_18,NINGUNA,77
-727,Calidad medioambiental,Contaminación del aire,109,-110.92545310000006,29.088439852827484,2023-12-19 21:57:35.355456+00:00,,,MUJER,MENOS_18,NINGUNA,0
 685,Calidad medioambiental,Contaminación del aire,109,-110.92605153090224,29.090105865716158,2023-12-15 00:28:41.391321+00:00,images/b63285ae-f855-4e27-9604-1fb004dd92d0.jpg,mal olor por drenaje abierto h acumulación de agua,MUJER,56_65,NINGUNA,0
 684,Calidad medioambiental,Contaminación del aire,109,-110.92599873089712,29.0903317656786,2023-12-15 00:28:41.391213+00:00,images/0df1a563-2541-411a-a6fc-a9da03b8f5e8.jpg,,MUJER,56_65,NINGUNA,0
 670,Calidad medioambiental,Contaminación del aire,109,-110.92490900525786,29.08959777925437,2023-12-15 00:28:41.389591+00:00,images/485ee678-2802-4315-ad37-3c4b73b8d429.jpg,,MUJER,56_65,NINGUNA,0
@@ -86,7 +83,6 @@ id,category_name,activity_title,activity_id,longitude,latitude,date,image,commen
 401,Calidad medioambiental,Drenaje y alcantarillado,110,-110.92235173660129,29.0903907541119,2023-12-15 00:00:53.245885+00:00,,,MUJER,MENOS_18,NINGUNA,5
 676,Calidad medioambiental,Fuentes naturales de agua,111,-110.92283575435346,29.09147012041081,2023-12-15 00:28:41.390232+00:00,images/de10d3a9-5558-4ead-834a-a54d0d66866b.jpg,,MUJER,56_65,NINGUNA,11
 444,Calidad medioambiental,Fuentes naturales de agua,111,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.314312+00:00,,,MUJER,26_35,NINGUNA,0
-733,Calidad medioambiental,Puntos de acumulación de basura,115,-110.9240375000042,29.08817635281393,2023-12-19 21:57:35.355858+00:00,,,MUJER,MENOS_18,NINGUNA,0
 701,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92601026463988,29.089651692006846,2023-12-15 00:29:53.386648+00:00,images/6087c8f2-3460-453c-ae99-d1112294eecc.jpg,,HOMBRE,36_45,NINGUNA,20
 689,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92404089999869,29.091740864721334,2023-12-15 00:29:48.556616+00:00,images/c915f9c7-6083-433c-8ae8-0865926581cc.jpg,es un baudero no se puede andar agusto de la basura que tienen,MUJER,56_65,NINGUNA,7
 688,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92382870000256,29.09130036473534,2023-12-15 00:29:48.556545+00:00,images/bd0e0b38-7826-4fac-9dca-1f8c5ce98458.jpg,es lo que uno habla que nomas vienen a tirar basura a la presa ... ,MUJER,56_65,NINGUNA,7
@@ -133,3 +129,74 @@ id,category_name,activity_title,activity_id,longitude,latitude,date,image,commen
 400,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92411412675972,29.09255083137814,2023-12-15 00:00:53.245823+00:00,,,MUJER,MENOS_18,NINGUNA,20
 367,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92579966179852,29.089896048034248,2023-12-14 23:32:16.555963+00:00,,,MUJER,MAS_65,NINGUNA,7
 362,Calidad medioambiental,Puntos de acumulación de basura,115,-110.92549442608905,29.090099043253232,2023-12-14 23:18:48.603820+00:00,,,MUJER,18_25,NINGUNA,0
+702,Entorno urbano,Banquetas y caminos,116,-110.92453433772164,29.089490426319543,2023-12-15 00:29:53.386717+00:00,images/7fe8804c-4fd4-44df-a0ff-21129c54262b.jpg,,HOMBRE,36_45,NINGUNA,18
+692,Entorno urbano,Banquetas y caminos,116,-110.92485580000964,29.09188746470373,2023-12-15 00:29:48.556853+00:00,images/da9d25cd-c03e-4308-89ff-ee707e531946.jpg,,MUJER,56_65,NINGUNA,28
+683,Entorno urbano,Banquetas y caminos,116,-110.92570453090856,29.09055306567967,2023-12-15 00:28:41.391105+00:00,images/cebee688-f8d4-49e6-beb4-d6b52d1da356.jpg,,MUJER,56_65,NINGUNA,0
+679,Entorno urbano,Banquetas y caminos,116,-110.92562813090215,29.09156266558435,2023-12-15 00:28:41.390626+00:00,images/0a46abe6-97aa-4112-9048-576730001f52.jpg,,MUJER,56_65,NINGUNA,8
+678,Entorno urbano,Banquetas y caminos,116,-110.92534273090706,29.091698765577853,2023-12-15 00:28:41.390517+00:00,images/4bc869b1-964d-4fb4-82d4-cdcd2ee69086.jpg,,MUJER,56_65,NINGUNA,16
+677,Entorno urbano,Banquetas y caminos,116,-110.92457473091244,29.092034965552,2023-12-15 00:28:41.390397+00:00,images/0d3c832f-d181-49fa-9adf-91d58722fee9.jpg,,MUJER,56_65,NINGUNA,6
+672,Entorno urbano,Banquetas y caminos,116,-110.9230693048162,29.09099788869185,2023-12-15 00:28:41.389806+00:00,images/be232127-e343-4fd6-9da3-edeeacf16afa.jpg,camino a la amapolas blokeado,MUJER,56_65,NINGUNA,0
+667,Entorno urbano,Banquetas y caminos,116,-110.9250795309,29.08986906571878,2023-12-15 00:28:41.389189+00:00,images/02cba982-a699-4b05-80d5-8d4a2c1a0cc3.jpg,,MUJER,56_65,NINGUNA,0
+666,Entorno urbano,Banquetas y caminos,116,-110.9259558222046,29.08953013071774,2023-12-15 00:28:41.389025+00:00,images/22d1c47e-8f41-40dd-8b2e-e3e9e7eb3253.jpg,,MUJER,56_65,NINGUNA,0
+631,Entorno urbano,Banquetas y caminos,116,-110.92640070000031,29.089905764791705,2023-12-15 00:26:53.441898+00:00,images/accc408d-225b-4949-9d52-9faa4abaeccc.jpg,,MUJER,MAS_65,VISUAL,5
+609,Entorno urbano,Banquetas y caminos,116,-110.92640070000031,29.089905764791705,2023-12-15 00:26:19.688454+00:00,images/c937c970-caf5-4f8e-8568-50eda303b86d.jpg,,MUJER,MAS_65,VISUAL,5
+603,Entorno urbano,Banquetas y caminos,116,-110.92543532613496,29.091667374012644,2023-12-15 00:26:16.016953+00:00,images/025e3fff-4d78-4040-94f0-07e5ea42b944.jpg,,MUJER,36_45,NINGUNA,46
+595,Entorno urbano,Banquetas y caminos,116,-110.92568751215812,29.09043738966134,2023-12-15 00:26:16.016405+00:00,images/594a92b5-b9ba-4428-986d-30477bc8ec9f.jpg,"existe vegetación regional, los lrededores con mucha acumulación de basura",MUJER,36_45,NINGUNA,8
+586,Entorno urbano,Banquetas y caminos,116,-110.92515050000011,29.09369396466365,2023-12-15 00:25:40.793242+00:00,,,MUJER,56_65,VISUAL,10
+577,Entorno urbano,Banquetas y caminos,116,-110.9278152569113,29.09006409230969,2023-12-15 00:23:36.625405+00:00,images/25ffce8e-f841-4762-96da-0d9fad08a453.jpg,tenemos ancho suficiente pero rampa ni carriles especiales ,MUJER,46_55,NINGUNA,15
+573,Entorno urbano,Banquetas y caminos,116,-110.92545091749844,29.08746608338052,2023-12-15 00:23:36.625028+00:00,images/97ab7289-de72-4a0f-a185-233fb4c2f3ac.jpg,no tenemos guarniciónes deslavamiento de tierra no ai paradas de camiones ,MUJER,46_55,NINGUNA,0
+558,Entorno urbano,Banquetas y caminos,116,-110.92610098450304,29.08871138170804,2023-12-15 00:20:51.282974+00:00,images/7f59c300-d061-4067-880c-14ca48e30d00.jpg,,HOMBRE,MENOS_18,NINGUNA,0
+556,Entorno urbano,Banquetas y caminos,116,-110.92564065092728,29.08806788058402,2023-12-15 00:20:51.282848+00:00,images/89013e4d-0d5a-4042-acf6-1bda63bae68f.jpg,,HOMBRE,MENOS_18,NINGUNA,0
+552,Entorno urbano,Banquetas y caminos,116,-110.92525220127656,29.08770137710141,2023-12-15 00:20:51.282458+00:00,images/4121375c-c21b-440d-b50c-f8c4c5feda6d.jpg,,HOMBRE,MENOS_18,NINGUNA,0
+537,Entorno urbano,Banquetas y caminos,116,-110.92755872020948,29.09026903431961,2023-12-15 00:18:48.750775+00:00,images/ea0566e7-f182-4fb7-ab6d-c94d57f0d732.jpg,se puso una oreja peatonal que perjudica a la vialidad,HOMBRE,MAS_65,NINGUNA,0
+531,Entorno urbano,Banquetas y caminos,116,-110.92513891080549,29.08754301744361,2023-12-15 00:18:48.750328+00:00,images/9c86ff3d-8fae-46ba-b491-b0a2aadabce0.jpg,la comunidad los utiliza para cruce a la escuela primaria,HOMBRE,MAS_65,NINGUNA,3
+523,Entorno urbano,Banquetas y caminos,116,-110.92812740445784,29.0914940123669,2023-12-15 00:13:28.263262+00:00,images/cab8fd18-14ba-425c-84c4-c8a5d1a46192.jpg,,HOMBRE,26_35,NINGUNA,0
+513,Entorno urbano,Banquetas y caminos,116,-110.92683599763616,29.09064297775724,2023-12-15 00:13:28.262217+00:00,images/f3171371-212f-43ab-a416-54e1acf9f9ba.jpg,,HOMBRE,26_35,NINGUNA,0
+505,Entorno urbano,Banquetas y caminos,116,-110.92721998590515,29.090626510814936,2023-12-15 00:11:53.999053+00:00,images/d178687d-8add-4847-8388-5c4d0aedfcf5.jpg,,HOMBRE,18_25,NINGUNA,0
+502,Entorno urbano,Banquetas y caminos,116,-110.9279259238252,29.091702450761275,2023-12-15 00:11:53.998808+00:00,,,HOMBRE,18_25,NINGUNA,3
+501,Entorno urbano,Banquetas y caminos,116,-110.92807469196724,29.091436114100382,2023-12-15 00:11:53.998742+00:00,images/38f15bf2-042b-42aa-ad4c-4cdffbc25af3.jpg,,HOMBRE,18_25,NINGUNA,5
+500,Entorno urbano,Banquetas y caminos,116,-110.92761910124888,29.091370969863185,2023-12-15 00:11:53.998635+00:00,images/0ac1e617-0237-4f8f-ad34-98066902e282.jpg,,HOMBRE,18_25,NINGUNA,5
+499,Entorno urbano,Banquetas y caminos,116,-110.92826759999312,29.09123096473533,2023-12-15 00:11:53.998520+00:00,,,HOMBRE,18_25,NINGUNA,5
+497,Entorno urbano,Banquetas y caminos,116,-110.92801404124046,29.09068825412861,2023-12-15 00:11:53.998360+00:00,,,HOMBRE,18_25,NINGUNA,8
+488,Entorno urbano,Banquetas y caminos,116,-110.92623689346158,29.08973199657849,2023-12-15 00:11:53.997473+00:00,,,HOMBRE,18_25,NINGUNA,25
+471,Entorno urbano,Banquetas y caminos,116,-110.92614184120144,29.089751164778143,2023-12-15 00:11:33.407229+00:00,,,MUJER,18_25,NINGUNA,3
+454,Entorno urbano,Banquetas y caminos,116,-110.92614184120144,29.089751164778143,2023-12-15 00:10:34.548559+00:00,,,MUJER,18_25,NINGUNA,3
+420,Entorno urbano,Banquetas y caminos,116,-110.92591526097875,29.08984300198602,2023-12-15 00:01:12.625721+00:00,images/2d9a1735-2316-491e-85fc-5ce275daa1ae.jpg,"perímetro alrededor del parque, mucha presencia de personas, debería haber banqueta.",HOMBRE,36_45,VISUAL,23
+419,Entorno urbano,Banquetas y caminos,116,-110.92441204053225,29.08941331797048,2023-12-15 00:01:12.625653+00:00,images/2713a77a-5765-4a73-8717-6a88be6d3353.jpg,,HOMBRE,36_45,VISUAL,18
+415,Entorno urbano,Banquetas y caminos,116,-110.92361510258216,29.08780953704848,2023-12-15 00:01:12.625378+00:00,images/348d3d2c-24a2-4035-8510-f2850dfb146a.jpg,"Perímetro de escuela, faltan banquetas en buenas condiciones y sin obstáculos.",HOMBRE,36_45,VISUAL,30
+413,Entorno urbano,Banquetas y caminos,116,-110.92501465529853,29.08743601713035,2023-12-15 00:01:12.625246+00:00,images/e023084d-4958-421b-8d04-619091195414.jpg,calle principal del área por donde pasa camión transporte público.,HOMBRE,36_45,VISUAL,25
+408,Entorno urbano,Banquetas y caminos,116,-110.92618661799598,29.089728993368418,2023-12-15 00:01:12.624866+00:00,images/62df94f9-2553-4c22-b0e1-538a1198c660.jpg,,HOMBRE,36_45,VISUAL,20
+404,Entorno urbano,Banquetas y caminos,116,-110.92618661799598,29.089728993368418,2023-12-15 00:01:12.624556+00:00,images/d7865032-ee9e-454e-9239-2cebb1724db7.jpg,"es un parque muy utilizado, debería haber más infraestructura en el parque así como banquetas y cruces seguros.",HOMBRE,36_45,VISUAL,20
+399,Entorno urbano,Banquetas y caminos,116,-110.92622524156424,29.091720088615347,2023-12-15 00:00:53.245760+00:00,,,MUJER,MENOS_18,NINGUNA,20
+385,Entorno urbano,Banquetas y caminos,116,-110.92591526097875,29.08984300198602,2023-12-15 00:00:40.183613+00:00,images/d4f76ae1-a837-4aef-9123-a7bb73386443.jpg,"perímetro alrededor del parque, mucha presencia de personas, debería haber banqueta.",HOMBRE,36_45,VISUAL,23
+384,Entorno urbano,Banquetas y caminos,116,-110.92441204053225,29.08941331797048,2023-12-15 00:00:40.183479+00:00,images/e9656774-0aac-4cb7-b318-3edc345f4a46.jpg,,HOMBRE,36_45,VISUAL,18
+380,Entorno urbano,Banquetas y caminos,116,-110.92361510258216,29.08780953704848,2023-12-15 00:00:40.183200+00:00,images/7220079e-3da3-4e02-a9cf-df5ea614f2bb.jpg,"Perímetro de escuela, faltan banquetas en buenas condiciones y sin obstáculos.",HOMBRE,36_45,VISUAL,30
+378,Entorno urbano,Banquetas y caminos,116,-110.92501465529853,29.08743601713035,2023-12-15 00:00:40.183060+00:00,images/4e4b9aa0-a76b-4e4c-9d52-cfcd5d5455ae.jpg,calle principal del área por donde pasa camión transporte público.,HOMBRE,36_45,VISUAL,25
+373,Entorno urbano,Banquetas y caminos,116,-110.92618661799598,29.089728993368418,2023-12-15 00:00:40.182701+00:00,images/7ae25de8-0505-4bee-96e6-6f3a57759b97.jpg,,HOMBRE,36_45,VISUAL,20
+369,Entorno urbano,Banquetas y caminos,116,-110.92618661799598,29.089728993368418,2023-12-15 00:00:40.182397+00:00,images/513a1b9e-437c-4f5f-9369-769d88113467.jpg,"es un parque muy utilizado, debería haber más infraestructura en el parque así como banquetas y cruces seguros.",HOMBRE,36_45,VISUAL,20
+363,Entorno urbano,Banquetas y caminos,116,-110.92611629119256,29.0895101891688,2023-12-14 23:18:48.603896+00:00,images/b3405153-b965-4e87-a009-17d01f8fb4b1.jpg,,MUJER,18_25,NINGUNA,0
+546,Entorno urbano,Cruces peatonales,121,-110.92612030924268,29.089248447631128,2023-12-15 00:19:11.678120+00:00,images/08cb9c93-ced7-4f50-9a31-8c8746f0badb.jpg,necotamos rampas de discapacidad para peatones ,MUJER,36_45,NINGUNA,20
+534,Entorno urbano,Cruces peatonales,121,-110.92628271586692,29.08887206484945,2023-12-15 00:18:48.750566+00:00,,,HOMBRE,MAS_65,NINGUNA,0
+515,Entorno urbano,Cruces peatonales,121,-110.92723950443528,29.09054648101936,2023-12-15 00:13:28.262394+00:00,images/9b31970f-fe4c-4a97-b3ed-839d3fdcd793.jpg,,HOMBRE,26_35,NINGUNA,0
+434,Entorno urbano,Cruces peatonales,121,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.313631+00:00,,,MUJER,26_35,NINGUNA,7
+395,Entorno urbano,Cruces peatonales,121,-110.92607479999018,29.08949026480745,2023-12-15 00:00:53.245485+00:00,images/641377b9-e120-4657-a6b4-3bc805f9b499.jpg,"no hay calle a lado de el campo , ni luz y entrando a la calle no puedes pasar si el conductor del vehículo no te lo permite , no hay banquetas y es aún más complicado para personas con alguna discapacidad , no hay cruce peatonal ni algún guardia de seguridad que cuidé a los peatones ",MUJER,MENOS_18,NINGUNA,0
+682,Entorno urbano,"Edificios públicos, tiendas y lugares para la comunidad",122,-110.92589903089484,29.09091976562853,2023-12-15 00:28:41.390942+00:00,images/a4bbf4c2-8c7d-496b-b4da-2ba705a7fd28.jpg,antes tarjeta aquí se queda,MUJER,56_65,NINGUNA,55
+681,Entorno urbano,"Edificios públicos, tiendas y lugares para la comunidad",122,-110.92608053090204,29.09121646562202,2023-12-15 00:28:41.390836+00:00,images/45931c39-0eba-415b-8e33-e7e47f4c24cf.jpg,Programa aquí se queda Morena,MUJER,56_65,NINGUNA,66
+397,Entorno urbano,"Edificios públicos, tiendas y lugares para la comunidad",122,-110.92626338855511,29.092386775386643,2023-12-15 00:00:53.245632+00:00,,,MUJER,MENOS_18,NINGUNA,89
+700,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92601026463988,29.089651692006846,2023-12-15 00:29:53.386565+00:00,images/c0abdcec-fd31-4b95-b78e-d36c40c71b0d.jpg,,HOMBRE,36_45,NINGUNA,46
+687,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92381920000432,29.09128536473212,2023-12-15 00:29:48.556479+00:00,images/60ed98ad-dc0e-4943-a49e-8de1a31eb6b4.jpg,bordo de la presa invadido ,MUJER,56_65,NINGUNA,33
+673,Entorno urbano,Espacios públicos y áreas verdes,123,-110.9237644309075,29.091389065607075,2023-12-15 00:28:41.389914+00:00,images/92cb43a0-5415-48be-adce-39a2dfad8d71.jpg,,MUJER,56_65,NINGUNA,12
+664,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92617623091311,29.0897986657318,2023-12-15 00:28:41.388783+00:00,images/a5ab7502-170b-46db-aa72-dc5bd4f7da36.jpg,,MUJER,56_65,NINGUNA,58
+649,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92612141183346,29.08982185475228,2023-12-15 00:26:59.263373+00:00,images/29cb00af-82f5-4ec1-83db-5857b6558e26.jpg,pues luz más juegos hay mucho olor a drenaje ,MUJER,36_45,NINGUNA,53
+630,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92619262938788,29.089688394581536,2023-12-15 00:26:53.441818+00:00,images/fb09b752-c22b-4a6d-bb8c-e5f1f1007cef.jpg,,MUJER,MAS_65,VISUAL,41
+608,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92619262938788,29.089688394581536,2023-12-15 00:26:19.688358+00:00,images/d44573d3-a7f9-4d66-ba9a-86273401a301.jpg,,MUJER,MAS_65,VISUAL,41
+578,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92628252378236,29.089891739727257,2023-12-15 00:25:40.792615+00:00,images/2935f2b3-8d99-42ca-99be-9a83bbeac3f2.jpg,bebederos luz en la noche ,MUJER,56_65,VISUAL,43
+526,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92664730443244,29.092168812315656,2023-12-15 00:13:28.263526+00:00,images/c29d59a6-0c5d-43a2-901b-67ca1faf7682.jpg,,HOMBRE,26_35,NINGUNA,2
+524,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92745190444936,29.09184441233286,2023-12-15 00:13:28.263359+00:00,images/498c5c3a-fb9a-487a-a70c-9c67e4c84c31.jpg,,HOMBRE,26_35,NINGUNA,2
+510,Entorno urbano,Espacios públicos y áreas verdes,123,-110.9261535044511,29.089750281050875,2023-12-15 00:13:28.261934+00:00,images/5dc95d20-7b23-4ae9-9051-546990a4b36e.jpg,,HOMBRE,26_35,NINGUNA,2
+409,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92618661799598,29.089728993368418,2023-12-15 00:01:12.624935+00:00,images/11556acd-d7ac-4904-8e1f-9511789c841e.jpg,,HOMBRE,36_45,VISUAL,23
+374,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92618661799598,29.089728993368418,2023-12-15 00:00:40.182771+00:00,images/218a1e94-10de-4a6d-bacc-e5c697b09535.jpg,,HOMBRE,36_45,VISUAL,23
+364,Entorno urbano,Espacios públicos y áreas verdes,123,-110.92612984253444,29.090042313916648,2023-12-14 23:18:48.603973+00:00,,,MUJER,18_25,NINGUNA,35
+554,Entorno urbano,Paradas de transporte público existentes,124,-110.92527391666329,29.0876395369202,2023-12-15 00:20:51.282711+00:00,images/9f30e7a2-c1c4-4b9f-92ec-7e9c80183bf2.jpg,,HOMBRE,MENOS_18,NINGUNA,7
+516,Entorno urbano,Paradas de transporte público existentes,124,-110.92745240444052,29.09052748099865,2023-12-15 00:13:28.262479+00:00,images/93a934b7-f992-425f-a9f2-b4ed3e4c1582.jpg,,HOMBRE,26_35,NINGUNA,0
+435,Entorno urbano,Paradas de transporte público existentes,124,-0.0087088862345297,-0.0028866181033038,2023-12-15 00:01:47.313698+00:00,images/3dd545db-d9ee-41bd-bd88-2d8fd77c0b7a.jpg,,MUJER,26_35,NINGUNA,3
