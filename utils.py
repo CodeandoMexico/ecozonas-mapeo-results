@@ -73,7 +73,7 @@ def remap_veces(v, s):
         return 0
     elif v == Constants.X5_N.value and s == Constants.GRAVE.value:
         return 0
-    return None
+    raise RemapException("No existe la opción " + s + " | " + v)
 
 
 def procesable(row, column):
@@ -87,7 +87,7 @@ def calculate_score(mapeo, code, letters, remap_function):
             evaluaciones.append(remap_function(mapeo[code + letter]))
     if len(evaluaciones) > 0:
         return int(round(mean(evaluaciones)))
-    return None
+    return 300
 
 
 def calculate_score_riesgo(mapeo, code_veces, code, letters):
@@ -99,4 +99,4 @@ def calculate_score_riesgo(mapeo, code_veces, code, letters):
             evaluaciones.append(remap_veces(v, c))
     if len(evaluaciones) > 0:
         return int(round(mean(evaluaciones)))
-    return None
+    return 300

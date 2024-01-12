@@ -6,7 +6,7 @@ import medamb
 import riedes
 
 
-def main():
+def procesar_mapeos_hermosillo():
     csv_file_path = 'data/mapeo_hermosillo_datos.csv'
     df = pd.read_csv(csv_file_path)
     resultados = df.sort_values(by=['category_name', 'activity_title'])
@@ -96,6 +96,103 @@ def main():
     resultados = resultados[resultados['puntuacion'].notna()]
     resultados_file_path = 'data/export/resultados_hermosillo.csv'
     resultados.to_csv(resultados_file_path, index=False)
+
+
+def procesar_mapeos_leon():
+    csv_file_path = 'data/mapeo_leon_datos.csv'
+    df = pd.read_csv(csv_file_path)
+    resultados = df.sort_values(by=['category_name', 'activity_title'])
+    resultados = resultados.iloc[:, 0:12]
+
+    for index, row in df.iterrows():
+        if row['activity_id'] == 0:
+            resultados.at[index, 'puntuacion'] = None
+        # ------------------------------
+        # Entorno urbano
+        # ------------------------------
+        elif row['activity_id'] == 4:  # OA1 Edificios publicos, tiendas y lugares para la comunidad
+            resultados.at[index, 'puntuacion'] = enturb.oa1(row)
+        elif row['activity_id'] == 5:  # OA2 Paradas de transporte publico
+            resultados.at[index, 'puntuacion'] = enturb.oa2(row)
+        elif row['activity_id'] == 6:  # OA3 POTENCIAL Paradas de transporte publico
+            resultados.at[index, 'puntuacion'] = None
+        elif row['activity_id'] == 7:  # OA4 Ciclovías y calles para ciclistas existentes
+            resultados.at[index, 'puntuacion'] = enturb.oa4(row)
+        elif row['activity_id'] == 8:  # OA5 POTENCIAL Ciclovias y biciestacionamientos
+            resultados.at[index, 'puntuacion'] = None
+        elif row['activity_id'] == 9:  # OA6 Biciestacionamientos
+            resultados.at[index, 'puntuacion'] = enturb.oa6(row)
+        elif row['activity_id'] == 11:  # OA7 Banquetas y caminos
+            resultados.at[index, 'puntuacion'] = enturb.oa7(row)
+        elif row['activity_id'] == 12:  # OA8 Cruces peatonales
+            resultados.at[index, 'puntuacion'] = enturb.oa8(row)
+        elif row['activity_id'] == 13:  # OA9 POTENCIAL Banquetas y cruces
+            resultados.at[index, 'puntuacion'] = None
+        elif row['activity_id'] == 14:  # OA10 Espacios publicos y areas verdes
+            resultados.at[index, 'puntuacion'] = enturb.oa10(row)
+        elif row['activity_id'] == 15:  # OA11 Siniestro vial
+            resultados.at[index, 'puntuacion'] = enturb.oa11(row)
+        # ------------------------------
+        # Calidad medioambiental
+        # ------------------------------
+        elif row['activity_id'] == 16:  # OB1 Punto de separación y recolección de basura
+            resultados.at[index, 'puntuacion'] = medamb.ob1(row)
+        elif row['activity_id'] == 17:  # OB2 POTENCIAL Punto de recoleccion de basura
+            resultados.at[index, 'puntuacion'] = None
+        elif row['activity_id'] == 18:  # OB3 Puntos de acumulacion de basura
+            resultados.at[index, 'puntuacion'] = medamb.ob3(row)
+        elif row['activity_id'] == 20:  # OB4 Contaminacion del aire
+            resultados.at[index, 'puntuacion'] = medamb.ob4(row)
+        elif row['activity_id'] == 22:  # OB5 Punto publico de agua potable
+            resultados.at[index, 'puntuacion'] = medamb.ob5(row)
+        elif row['activity_id'] == 21:  # OB6 Fuentes naturales de agua
+            resultados.at[index, 'puntuacion'] = medamb.ob6(row)
+        elif row['activity_id'] == 23:  # OB7 Drenaje y alcantarillado
+            resultados.at[index, 'puntuacion'] = medamb.ob7(row)
+        # ------------------------------
+        # Bienestar socioeconómico
+        # ------------------------------
+        elif row['activity_id'] == 26:  # OC1 Actividades de comercio local
+            resultados.at[index, 'puntuacion'] = biesoc.oc1(row)
+        elif row['activity_id'] == 25:  # OC2 Puntos de internet
+            resultados.at[index, 'puntuacion'] = biesoc.oc2(row)
+        elif row['activity_id'] == 24:  # OC3 Mercados locales, fruterías, verdulerías
+            resultados.at[index, 'puntuacion'] = biesoc.oc3(row)
+        elif row['activity_id'] == 27:  # OC4 Actividades culturales
+            resultados.at[index, 'puntuacion'] = biesoc.oc4(row)
+        elif row['activity_id'] == 28:  # OC5 Actividades de participacion comunitaria
+            resultados.at[index, 'puntuacion'] = biesoc.oc5(row)
+        elif row['activity_id'] == 29:  # OC6 Actividades deportivas
+            resultados.at[index, 'puntuacion'] = biesoc.oc6(row)
+        # ------------------------------
+        # Riesgo desastres
+        # ------------------------------
+        elif row['activity_id'] == 35:  # OD6 Espacios de contingencia frente a catastrofes
+            resultados.at[index, 'puntuacion'] = None
+        elif row['activity_id'] == 30:  # OD1 Riesgo geologico
+            resultados.at[index, 'puntuacion'] = riedes.od1(row)
+        elif row['activity_id'] == 31:  # OD2 Riesgo hidrometeorologico
+            resultados.at[index, 'puntuacion'] = riedes.od2(row)
+        elif row['activity_id'] == 32:  # OD3 Riesgo ambiental
+            resultados.at[index, 'puntuacion'] = riedes.od3(row)
+        elif row['activity_id'] == 34:  # OD4 Riesgo antropogenico
+            resultados.at[index, 'puntuacion'] = riedes.od4(row)
+        elif row['activity_id'] == 33:  # OD5 Riesgo biologico
+            resultados.at[index, 'puntuacion'] = riedes.od5(row)
+        # ------------------------------
+        # Otra
+        # ------------------------------
+        elif row['activity_id'] == 69:  # Mapeo libre
+            resultados.at[index, 'puntuacion'] = None
+
+    # resultados = resultados[resultados['puntuacion'].notna()]
+    resultados_file_path = 'data/export/resultados_leon.csv'
+    resultados.to_csv(resultados_file_path, index=False)
+
+
+def main():
+    # procesar_mapeos_hermosillo()
+    procesar_mapeos_leon()
 
 
 if __name__ == "__main__":
